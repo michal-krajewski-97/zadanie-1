@@ -1,0 +1,117 @@
+/* Global */
+body {
+    margin: 0;
+    padding: 0;
+}
+/* Navigation */
+.nav {
+    background-image: url('https://images.pexels.com/photos/6214472/pexels-photo-6214472.jpeg?auto=compress&cs=tinysrgb&w=1600');
+    background-size: cover;
+    height: 70vh;
+    position: relative;
+}
+.nav ul li {
+    display: inline-block;
+    margin-right: 4vh;
+    margin-top: 3vh;
+}
+.nav .name {
+    font-size: 35px;
+    color: goldenrod;
+}
+.nav a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+.nav h1 {
+    text-align: center;
+    font-size: 7vh;
+}
+.nav h2 {
+    text-align: center;
+    margin-top: 20vh;
+    font-size: 4vh;
+}
+.nav button {
+    background-color: goldenrod;
+    border: none;
+    padding: 20px;
+    width: 20%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+/* Services */
+.services .offert {
+    display: flex;
+    justify-content: center;
+}
+.services .serv-title {
+    text-align: center;
+    margin-bottom: 10vh;
+    margin-top: 4vh;
+}
+.services .off {
+    display: inline-block;
+    max-width: 20%;
+    text-align: center;
+}
+.services h2 {
+    font-size: 4vh;
+}
+.services h3 {
+    font-size: 3vh;
+}
+.services p {
+    color: gray;
+}
+.services i {
+    font-size: 5vh;
+    color: goldenrod;
+    padding: 20px;
+    border: 4px solid;
+    border-radius: 50%;
+}
+/* portfolio */
+.portfolio {
+    background: #e2e2e2;
+    text-align: center;
+}
+.portfolio .portfolio-title {
+    margin: 10vh 0;
+}
+.portfolio .box img {
+    width: 100%;
+    height: 30vh;
+}
+.portfolio h2 {
+    font-size: 5vh;
+}
+.portfolio p {
+    color: gray;
+    font-size: 2vh;
+    margin-bottom: 4vh;
+}
+.portfolio .box .skill {
+    background: white;
+}
+
+/* Footer */
+.footer-icon {
+    display: inline-block;
+    margin: 3vh 0;
+}
+footer .icon {
+    display: inline-block;
+    font-size: 3vh;
+    margin-right: 3vh;
+    color: white;
+    border: 5px solid black;
+    border-radius: 50%;
+    background: black;
+    padding: 5px;
+}
+footer .cop {
+    display: inline-block;
+    margin-right: 33vh;
+}
